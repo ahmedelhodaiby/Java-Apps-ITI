@@ -11,7 +11,7 @@ public class ConsoleToFile {
     {
         InputStreamReader consoleIn = new InputStreamReader(System.in);
         BufferedReader buffread = new BufferedReader(consoleIn);
-        FileWriter writer = new FileWriter("D:\\ITI AI\\Technical\\01 Foundation Period\\10-Java and UML Programming\\Day 2\\out1.txt");
+        FileWriter writer = new FileWriter("out.txt");
         BufferedWriter buffwriter = new BufferedWriter(writer);
         String data = "";
         while(!data.equalsIgnoreCase("stop")){
