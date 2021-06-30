@@ -18,7 +18,7 @@ public class Application {
      */
     public static void main(String[] args) {
         
-        String csvpath = "D:\\ITI AI\\Technical\\01 Foundation Period\\10-Java and UML Programming\\Day 2\\pyramids.csv";
+        String csvpath = "src/pyramids.csv";
         PyramidCSVDAO pDAO = new PyramidCSVDAO();
         List<Pyramid> pyramids = pDAO.readPyramidsFromCSV(csvpath);
         
