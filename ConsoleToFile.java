@@ -1,5 +1,3 @@
-package assignment1;
-
 import java.io.*;
 
 
@@ -7,7 +5,7 @@ import java.io.*;
  *
  * @author El-Hodaiby
  */
-public class App {
+public class ConsoleToFile {
 
     public static void main(String[] args) throws IOException
     {
